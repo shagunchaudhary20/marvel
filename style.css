@@ -1,0 +1,177 @@
+.main, .head{
+    justify-content: center;
+    padding: 0;
+    margin:0 23%;
+    flex-wrap:wrap;
+}
+.character{
+    display: flex;
+    padding-left: 5%;
+}
+.head{
+    font-size: 70px;
+}
+.marvel{
+    display: flex;
+}
+.main img{
+    height: 200px;
+    width: 340px;
+    margin: 1%;
+    border: solid 1px ;
+
+}
+.text{
+   width: 400px;
+    align-items: center;
+    margin-bottom:0%;
+    margin-left: 2%;
+    padding-top:0% ;
+  
+}
+
+.marvel-text{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+.box img{
+    height: 400px; 
+
+}
+
+
+
+@media(max-width:1360px){
+    
+    .main,.head{
+        margin:0 18%;
+    }
+    .country-body img{  
+        width: 450px;
+
+    }
+}
+@media(max-width:1160px){
+    .main,.head{
+        margin:0 10%;
+    }
+    .box img{
+        height: 350px; 
+        
+    }
+    
+    .marvel-text{
+        font-size: 15px;
+        margin-left: 2%;
+    }
+}
+
+
+
+@media (max-width: 894px){
+    .text{
+        margin-left: 0;
+    }
+    .head{
+        font-size: 40px !important;
+    }
+    .main, .head{
+        margin: 0 0;
+    }
+
+    .marvel-text p {
+        font-size: 15px;
+    }
+    .box img{
+        height: 350px; 
+        
+    }
+    
+}
+@media(max-width:684px){
+    
+    .marvel-text {
+        font-size: 12px!important;
+    }
+    .box img{
+        height: 300px; 
+        
+    }
+
+}
+
+
+
+@media (max-width: 536px){
+    .main img{
+        width: 150px !important;
+        height: 100px;
+    }
+    .character{
+        display:flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    .text{
+        margin: 0%;
+        font-size: 10px;
+    }
+    .text b{
+        font-size: 20px;
+    }
+  .marvel-text {
+        font-size: 17px;
+    }
+    .box img{
+        height: 300px; 
+        width: 370px;
+        
+    }
+    
+}
+@media (max-width: 390px){
+    .text{
+        margin-left: 0;
+        padding-top:0 ;
+    }
+    .main, .head{
+        margin: 0 0;
+    }
+    button{
+        margin-top:0% ;
+        font-size:10px;
+        height: 25px;
+    }
+    .marvel-text p {
+        font-size: 10px;
+    }
+    .box img{
+        height: 270px; 
+        width: 270px;
+        
+    }
+}
+@media (max-width: 354px){
+    .head{
+        font-size: 30px !important;
+    }
+    .text{
+        margin-left: 0;
+        padding-top:0 ;
+    }
+    .main img{
+        width: 120px ;
+        height: 90px !important;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .box img{
+        height: 230px; 
+        width: 250px;
+        
+    }
+
+
+}
